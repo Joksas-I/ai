@@ -1,0 +1,32 @@
+.close-btn {
+    display: none;
+    position: absolute;
+    color: white;
+    left: 60%;
+    top: 40vh;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.middle-btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50vh;
+}
+.navbar {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    top: 50vh;
+}
+.navbar > a {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
